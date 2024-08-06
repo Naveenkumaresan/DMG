@@ -1,0 +1,359 @@
+::-webkit-scrollbar {
+  display: none;
+}
+.nav-item{
+  right: 5rem;
+ }
+ .nav-link{
+   margin-right: 2rem;
+ }
+ .head_style{
+   color: #fd7e14;
+ }
+ .navbar-brand{
+     font-weight: 800;
+ }
+ 
+ .carousel-item .row {
+   justify-content: center;
+ }
+ 
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+   background-color: rgba(0, 0, 0, 0.5); 
+   border-radius: 50%;
+ }
+ 
+ #carousel_color{
+ 
+   background-color: white;
+   background: transparent;
+ }
+ 
+ 
+ #nav_link{
+   margin-left: 2rem;
+ }
+ 
+
+.breadcrumb {
+    background: none;
+    padding:3em 0 0px 0;
+    margin: 20px 0;
+    margin-left: 3.5%;
+}
+#contact {
+    color: #ff7e00;
+}
+    
+/* 1st Section */
+.hero {
+background-image: url("image/Home.png");
+background-size: cover;
+height: 610px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+text-align: center;
+}
+
+.logo{
+    width: 40px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+/* Services */
+.services {
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+.service-item {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+border-radius: 8px;
+}
+
+.service-item p {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.service-item img {
+max-width: 100%;
+height: auto;
+}
+.services-box{
+margin-left: 5%;
+margin-right: 5%;
+}
+.small-img {
+width: 300px; 
+height: auto; 
+border-radius: 8px;
+}
+.text-center {
+text-align: center;
+color: #e64a19;
+}
+.sub-text-center{
+text-align: center;
+color: black;
+}
+
+.cta-section {
+background-color: #f8f9fa;
+padding: 50px 0;
+}
+.cta-button {
+background-color: #ff5722;
+color: white;
+border: none;
+padding: 15px 30px;
+margin-top: 2%;
+font-size: 1.25rem;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+.cta-button:hover {
+background-color: #e64a19;
+color: white;
+}
+@media (max-width: 768px) {
+  .cta-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+/* Review section */
+.testimonials {
+background-color: #f0f4ff;
+}
+
+.testimonial-box {
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+padding: 20px;
+}
+
+.testimonial-box p {
+color: #333;
+}
+
+.testimonial-box p.font-italic {
+margin-bottom: 10px;
+}
+
+.testimonial-author {
+font-weight: normal;
+color: #666;
+font-size: 0.875rem; /* Smaller font size to match the image */
+}
+
+
+/*  responsive  Reviews*/
+@media (max-width: 767.98px) {
+.testimonial-box {
+    width: 100%;
+    padding: 20px;
+}
+}
+footer {
+background-color: rgb(19, 19, 19); 
+padding: 2em 4em; 
+}
+
+.footer-content {
+margin-bottom: 1em;
+}
+
+.footer-content p {
+margin: 0.5em 0; 
+color: white;
+}
+
+.social-media {
+margin-top: 1em; 
+
+}
+
+.social-media a {
+margin-right: 1em;
+text-decoration: none; 
+}
+
+.social-media .icons2 {
+font-size: 2rem;
+color: white;
+}
+
+.right {
+text-align: justify; 
+}
+
+.subscription-form {
+display: flex; 
+justify-content: center;
+align-items: center; 
+gap: 0.5em; 
+}
+
+input[type="email"] {
+width: 10%; 
+flex: 1; 
+padding: 0.5em; 
+border-radius: 4px;
+border: none;
+outline: none;
+background-color: rgb(49, 49, 49);
+color: #ddd;
+}
+
+button {
+background-color: rgb(251, 115, 45); 
+color: #fff; 
+border: none;
+padding: 0.5em 1em; 
+border-radius: 4px; 
+cursor: pointer; 
+}
+
+button:hover {
+background-color: rgb(251, 115, 45); 
+}
+
+@media (max-width: 767px) {
+footer {
+padding: 2em 0em; 
+}
+.footer-content {
+text-align: justify; 
+}
+
+
+.subscription-form {
+flex-direction: column; 
+gap: 0.5em; 
+}
+
+input[type="email"], button {
+width: 100%; 
+}
+button{
+width: 40%;
+}
+}
+
+/* List Mail */
+.list-box {
+    height: 200px; 
+    overflow-y: scroll; 
+    padding: 0;
+    border: 1px solid #adadad; 
+    border-radius: 5px;
+    margin-top: 11px;
+  }
+  
+  .list-box ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-box ul li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list-box ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Style scrollbar */
+  .list-box::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  .list-box::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  .list-box::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  .list-box::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+    /* Responsive adjustments */
+    @media (max-width: 1024px) {
+      .list-box {
+        height: auto;
+        max-height: 100px; 
+      }
+    }
+  .carousel-control-prev,
+          .carousel-control-next {
+              width: 5%;
+              top: 50%;
+              transform: translateY(-50%);
+              background: none; 
+             
+          }
+  
+          .carousel-control-prev-icon,
+          .carousel-control-next-icon {
+              background-image: none; 
+          }
+  
+          .carousel-control-prev-icon::before,
+          .carousel-control-next-icon::before {
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+              font-size: 30px;
+              color: rgb(255, 81, 0); 
+          }
+  
+          .carousel-control-prev-icon::before {
+              content: "\f053"; 
+          }
+  
+          .carousel-control-next-icon::before {
+              content: "\f054"; 
+          }
+  
+          .carousel-control-prev {
+              left: -10%; 
+  
+          }
+  
+          .carousel-control-next {
+              right: -10%; 
+          }
+  
+          /* Adjustments for responsiveness */
+          @media (max-width: 768px) {
+              .carousel-control-prev,
+              .carousel-control-next {
+                  width: 8%;
+                  font-size: 24px;   
+                  margin-left: 25px;
+              }
+          }
+  
+          @media (max-width: 576px) {
+              .carousel-control-prev,
+              .carousel-control-next {
+                  width: 12%;
+                  font-size: 20px;      
+                  margin-right: 25px;        
+              }
+          }
